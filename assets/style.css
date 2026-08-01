@@ -508,6 +508,23 @@ strong { color: var(--color-text); }
   max-width: 40rem;
 }
 
+.hero__quote,
+.pull-quote {
+  margin: 1.75rem 0 2rem;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--color-accent);
+  max-width: 38rem;
+}
+
+.hero__quote p,
+.pull-quote p {
+  margin: 0;
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--color-text);
+}
+
 .doc-grid {
   max-width: 48rem;
   margin: 0 auto;
@@ -568,6 +585,13 @@ strong { color: var(--color-text); }
   font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 0.82rem;
   color: var(--color-text-muted);
+}
+
+.site-footer__about {
+  max-width: 34rem;
+  margin: 0 auto 0.9em;
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
 
 /* ---------- Print ---------- */
