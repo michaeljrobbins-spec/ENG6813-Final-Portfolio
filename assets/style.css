@@ -508,14 +508,16 @@ strong { color: var(--color-text); }
   max-width: 40rem;
 }
 
-.hero__quote {
+.hero__quote,
+.pull-quote {
   margin: 1.75rem 0 2rem;
   padding-left: 1.25rem;
   border-left: 3px solid var(--color-accent);
   max-width: 38rem;
 }
 
-.hero__quote p {
+.hero__quote p,
+.pull-quote p {
   margin: 0;
   font-size: 1.3rem;
   font-style: italic;
